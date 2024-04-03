@@ -28,7 +28,7 @@ $ http_serve File_or_dir_path
 
 Replace File_or_dir_path with the actual path to the directory or file you want to serve.
 
-### Extra Possibilities with http_serve
+##### Extra Possibilities with http_serve
 
 ## GUI Applications and File Transfer:
 
