@@ -32,11 +32,9 @@ Replace File_or_dir_path with the actual path to the directory or file you want 
 
 ## GUI Applications and File Transfer:
 
+The concept behind http_serve can be extended to create GUI applications. By designing a user interface (UI) using web technologies (HTML, CSS, JavaScript), you can serve the UI directly from your shell.
 
-    The concept behind http_serve can be extended to create GUI applications. By designing a user interface (UI) using web technologies (HTML, CSS, JavaScript), you can serve the UI directly from your shell.
-
-    Additionally, this small utility can be handy for transferring files without the need for cables. Imagine the convenience of sharing files directly from your shell over a local area network (LAN)!
-
+Additionally, this small utility can be handy for transferring files without the need for cables. Imagine the convenience of sharing files directly from your shell over a local area network (LAN)!
 
 ### File Transfer via LAN:
 
@@ -44,7 +42,8 @@ Suppose you have two devices connected via LAN. The sender can use http_serve to
 
 ### GUI Applications with Web Frontend and Backend:
 
-    When creating GUI applications, you can use web technologies for the frontend (UI) and choose any backend technology you prefer.
+    When creating GUI applications, you can use web technologies 
+    for the frontend (UI) and choose any backend technology you prefer.
     Here’s how it works:
         Design your UI using HTML, CSS, and JavaScript.
         Call http_serve to serve your UI on a local web server.
